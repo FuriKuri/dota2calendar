@@ -10,3 +10,5 @@ out
 local.properties
 gen
 *.iml
+
+libs
