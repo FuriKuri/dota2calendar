@@ -2,13 +2,25 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="vertical"
               android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-        >
+              android:layout_height="fill_parent">
+
     <TextView
             android:id="@+id/text_view"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
+            android:text="@string/txt_title"/>
+
+    <Button
+            android:id="@+id/opt_startService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="@string/btn_update"
+            android:onClick="onClickLocalService"/>
+
+    <ListView
+            android:id="@+id/match_list"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
 </LinearLayout>
 

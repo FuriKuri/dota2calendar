@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Android Gradle</string>
-    <string name="app_name3">Android Gradle</string>
+    <string name="btn_update">Update Matches</string>
+    <string name="txt_title">Dota Matches</string>
 </resources>
